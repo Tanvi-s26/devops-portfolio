@@ -1,13 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    background: #0f172a;
+    color: white;
     text-align: center;
-    background-color: #f4f4f4;
+    padding: 60px 20px;
 }
 
-h1 {
-    color: #333;
+/* SECTIONS */
+section {
+    padding: 40px 20px;
+    text-align: center;
 }
 
-ul {
-    list-style: none;
+/* SKILLS */
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-box span {
+    background: #e2e8f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* PROJECTS */
+.project-card {
+    background: #f4f4f4;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
